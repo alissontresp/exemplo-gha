@@ -22,25 +22,3 @@ function (msg = "") {
 function (a, b) {
     as.numeric(a) + as.numeric(b)
 }
-
-# #* Retorna a soma de dois números
-# #* @param a O primeiro número
-# #* @param b O segundo número
-# #* @param senha O código de autorização
-# #* @post /sum
-# function (a, b, senha = "") {
-#   if (senha == "segredo") {
-#     as.numeric(a) + as.numeric(b)
-#   } else {
-#     stop("SENHA ERRADA")
-#   }
-# }
-
-# #* A mensagem tem a regex 
-# #* @param msg A mensagem para escrever 
-# #* @get /regex
-# function (msg = "") {
-#   resultado <- stringr::str_detect(msg, "[0-9]+")
-#   as.character(resultado)
-# }
-
