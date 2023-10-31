@@ -4,7 +4,7 @@
 # descricao: cria uma api usando o pacote plumber e cria um dockerfile 
 #            para criar uma imagem para implantar no render 
 # autor: alisson 
-# data da ultima modificacao: 26.10.2023
+# data da ultima modificacao: 31.10.2023
 # -------------------------------------------------------------------------
 
 #* Escreve uma mensagem
